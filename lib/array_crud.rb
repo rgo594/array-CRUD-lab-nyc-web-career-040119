@@ -1,5 +1,5 @@
 def create_an_empty_array
-  x = []
+  array = []
 end
 
 def create_an_array
@@ -7,12 +7,10 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  x = [1, 2, 3]
-  x.push(4)
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  x = [1, 2, 3]
   x.unshift(4)
 end
 
@@ -22,7 +20,8 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  
+  x = [1, 2, 3]
+  x.shift
 end
 
 def retrieve_element_from_index(array, index_number)
